@@ -2,8 +2,9 @@
 <resources>
     <color name="colorPrimary">#DE7A22</color>
     <color name="colorPrimaryDark">#b7641b</color>
-    <color name="darkWhite">#e0e0e0</color>
-    <color name="sea">#20948B</color>
-    <color name="darkGrey">#636363</color>
-    <color name="lightGrey">#8c8c8c</color>
+    <color name="colorBackground">#e0e0e0</color>
+    <color name="colorAccent">#20948B</color>
+    <color name="colorDarkGrey">#636363</color>
+    <color name="colorLightGrey">#8c8c8c</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
