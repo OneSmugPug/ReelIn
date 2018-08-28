@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">ReelIn</string>
+    <string-array name="PROVINCES">
+        <item>Eastern Cape</item>
+        <item>Free State</item>
+        <item>Gauteng</item>
+        <item>KwaZulu-Natal</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Northern Cape</item>
+        <item>North West</item>
+        <item>Western Cape</item>
+    </string-array>
+    <string name="SIGN_IN">SIGN IN</string>
+    <string name="EMAIL">Email:</string>
+    <string name="PASSWORD">Password:</string>
+    <string name="FORGOT_PASSWORD">Forgot password?</string>
+    <string name="CREATE_NEW_ACCOUNT">CREATE NEW ACCOUNT</string>
+    <string name="FIRST_NAME">First Name:</string>
+    <string name="LAST_NAME">Last Name:</string>
+    <string name="DOB">Date of Birth:</string>
+    <string name="STREET_ADDRESS">Street Address:</string>
+    <string name="ADDRESS">Address</string>
+    <string name="SUBURB">Suburb:</string>
+    <string name="TOWN_CITY">Town/City:</string>
+    <string name="POSTAL_CODE">Postal Code:</string>
+    <string name="CONTACT_NUMBER">Contact Number:</string>
+    <string name="NEXT">NEXT</string>
+    <string name="MEMBER_NUMBER">Membership Number:</string>
+    <string name="MEMBER_NUM_AM">Membership #:</string>
+    <string name="RETYPE_PASSWORD">Re-type Password:</string>
+    <string name="SIGNUP">SIGN UP</string>
+    <string name="MANAGE_ACCOUNT">Manage Account</string>
+    <string name="LOG_OUT">Log Out</string>
+    <string name="PERSONAL_DETAILS">Personal Details</string>
+    <string name="MAIN_MENU">Main Menu</string>
+    <string name="PROVINCE">Province:</string>
+    <string name="ORGANISATION">Organisation</string>
+    <string name="ORGANISATION_NAME">Organisation Name:</string>
+    <string name="ACCOUNT">Account</string>
 </resources>
