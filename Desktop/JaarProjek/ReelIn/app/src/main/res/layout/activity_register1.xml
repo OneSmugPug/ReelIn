@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nmu.wrrv301.reelin.RegisterPageOne"
+    android:background="@color/colorBackground">
+
+    <Button
+        android:id="@+id/sNextButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:text="@string/NEXT"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/fNameText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/suburbText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/suburbText"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/FIRST_NAME"
+        android:inputType="textCapWords|textPersonName" />
+
+    <EditText
+        android:id="@+id/lNameText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fNameText"
+        android:layout_alignStart="@+id/fNameText"
+        android:layout_below="@+id/fNameText"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/LAST_NAME"
+        android:inputType="textCapWords|textPersonName" />
+
+    <EditText
+        android:id="@+id/displayDate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lNameText"
+        android:layout_alignStart="@+id/lNameText"
+        android:layout_below="@+id/lNameText"
+        android:layout_marginTop="8dp"
+        android:contextClickable="false"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="@string/DOB"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/address1Text"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/displayDate"
+        android:layout_alignStart="@+id/displayDate"
+        android:layout_below="@+id/displayDate"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="@string/STREET_ADDRESS"
+        android:inputType="textCapWords|textPostalAddress" />
+
+    <EditText
+        android:id="@+id/suburbText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address1Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="@string/SUBURB"
+        android:inputType="textCapWords|textPostalAddress" />
+
+    <EditText
+        android:id="@+id/townText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suburbText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="@string/TOWN_CITY"
+        android:inputType="text|textCapWords" />
+
+    <EditText
+        android:id="@+id/postalText"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/townText"
+        android:layout_alignStart="@+id/townText"
+        android:layout_below="@+id/townText"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="@string/POSTAL_CODE"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinnerRegister"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/townText"
+        android:layout_alignRight="@+id/townText"
+        android:layout_alignTop="@+id/postalText"
+        android:theme="@style/Base.Theme.AppCompat.Light"
+        android:entries="@array/PROVINCES"/>
+
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinnerRegister"
+        android:layout_alignRight="@+id/spinnerRegister"
+        android:layout_below="@+id/spinnerRegister"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="@string/CONTACT_NUMBER"
+        android:inputType="phone" />
+
+</RelativeLayout>
+
+
+

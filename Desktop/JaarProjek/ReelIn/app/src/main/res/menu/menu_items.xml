@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/MAIN_MENU"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/manageAccount"
+                android:icon="@drawable/ic_account_box"
+                android:title="@string/MANAGE_ACCOUNT"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app"
+                android:title="@string/LOG_OUT"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+</menu>

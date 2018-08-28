@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nmu.wrrv301.reelin.RegisterPageTwo"
+    android:background="@color/colorBackground">
+
+    <Spinner
+        android:id="@+id/orgName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:id="@+id/memberNum"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:hint="@string/MEMBER_NUMBER"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/textlines"
+        android:layout_below="@+id/memberNum"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/emailR"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/memberNum"
+        android:layout_alignStart="@+id/memberNum"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/EMAIL"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordSign"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/PASSWORD"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/rePass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordSign"
+        android:layout_alignStart="@+id/passwordSign"
+        android:layout_below="@+id/passwordSign"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/RETYPE_PASSWORD"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/lastSignup"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/button"
+        android:text="@string/SIGNUP"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lbl_organization_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/orgName"
+        android:layout_marginTop="14dp"
+        android:text="@string/ORGANISATION_NAME"
+        android:textSize="18sp" />
+</RelativeLayout>

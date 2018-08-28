@@ -38,4 +38,26 @@
     <string name="ORGANISATION">Organisation</string>
     <string name="ORGANISATION_NAME">Organisation Name:</string>
     <string name="ACCOUNT">Account</string>
+    <string name="DATE_CAPTURED">Date Captured:</string>
+    <string name="TAG_ID">#Tag ID</string>
+    <string name="FISH">Fish:</string>
+    <string name="HISTORY">History</string>
+    <string name="TRACK_FISH">Track Fish</string>
+    <string name="LOCATION_CAPTURED">Location Captured:</string>
+    <string name="FISH_SPECIES">Fish Species:</string>
+    <string name="TITLE_ACTIVITY_LOCATION_CAPTURED">Map</string>
+    <string name="FORK_LENGTH">Fork Length:</string>
+    <string name="DISK_WIDTH_F">#diskWidth</string>
+    <string name="WEIGHT_F">#weight</string>
+    <string name="PREC_LENGTH_F">#precLength</string>
+    <string name="TOTAL_LENGTH_F">#totalLength</string>
+    <string name="FORK_LENGTH_F">#forkLength</string>
+    <string name="FISH_SPECIES_F">#fishSpecies</string>
+    <string name="DATE_CAPTURED_F">#dateCaptured</string>
+    <string name="SELECT_TAG">Select Tag</string>
+    <string name="DISK_WIDTH_RAY">Disk Width (Ray):</string>
+    <string name="WEIGHT">Weight:</string>
+    <string name="PRECAUDAL_LENGTH">Precaudal Length:</string>
+    <string name="TOTAL_LENGTH">Total Length:</string>
+    <string name="TODO">TODO</string>
 </resources>
