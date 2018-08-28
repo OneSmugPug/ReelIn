@@ -18,6 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterPageOne"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".RegisterPageTwo"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".MainMenu"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".ManageAccount"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".ViewTags"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".LocationCaptured"/>
     </application>
 
 </manifest>
